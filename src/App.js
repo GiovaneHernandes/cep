@@ -58,7 +58,7 @@ const App = () => {
       </div>
       <div className="containerBlog">
         {posts.map((post) => (
-          <div key={post.id}>
+          <div className="post" key={post.id}>
             <img
               src={`https://via.placeholder.com/150?text=Post+${post.id}`}
             ></img>

@@ -1,8 +1,12 @@
+.body {
+  background-color: antiquewhite;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 90px;
+  margin-top: 50px;
 }
 
 .containerCep {
@@ -12,14 +16,16 @@
   gap: 15px;
   background-color: rgb(27, 15, 74);
   margin-bottom: 20px;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 400px;
+  margin-right: 400px;
   border-radius: 10px;
 }
 
 h1 {
   color: white;
-  border-color: white;
+  border: 1px solid;
+  width: 400px;
+  text-align: center;
 }
 
 input {
@@ -31,4 +37,25 @@ input {
   border-radius: 5px;
   color: black;
   font-size: 20px;
+}
+
+.containerBlog {
+  display: flex;
+  flex-direction: column;
+  margin-right: 350px;
+  margin-left: 350px;
+  gap: 20px;
+}
+
+.post {
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
 }
